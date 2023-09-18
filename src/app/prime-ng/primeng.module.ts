@@ -5,6 +5,9 @@ import { MenubarModule } from 'primeng/menubar';
 import { NgModule } from '@angular/core';
 import { PanelModule } from 'primeng/panel';
 import { ToastModule } from 'primeng/toast';
+import { ToolbarModule } from 'primeng/toolbar';
+import { SplitButtonModule } from 'primeng/splitbutton';
+import { TableModule } from 'primeng/table';
 
 
 
@@ -15,6 +18,9 @@ const ElementosPrimeNg = [
     MenubarModule,
     PanelModule,
     ToastModule,
+    ToolbarModule,
+    TableModule,
+    SplitButtonModule
 ]
 
 
